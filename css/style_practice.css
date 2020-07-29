@@ -1,0 +1,465 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	vertical-align: baseline;
+    background: transparent;
+        
+}
+body, html{
+	margin: 0;
+	padding: 0;
+	font-family:'Lato', 'Arial', sans-serif;
+	font-size: 20px;
+	height: 100%;
+	width: 100%;
+	text-rendering: optimizeLegibility;
+}
+html{
+	overflow-x: hidden;
+}
+.bg_image{
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('images/background-image.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	background-repeat: no-repeat;
+	border: 10px inset black;
+	filter: blur(4px);
+}
+.heading_buttons{
+	position: absolute;
+	top: 2%;
+	left: 2%;
+	width: 98%;
+	background-attachment: fixed;
+	text-align: center;
+}
+.heading_buttons li{
+	margin-top: 1%;
+	display: inline-grid;
+	padding: 0% 2%;
+}
+.heading_buttons a{
+	color: yellow;
+	text-decoration: none;
+}
+.heading_buttons a:hover{
+	color: red;
+	transition: color 0.3s;
+}
+.middle_text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	padding: 2% 4%;
+	border: 10px inset red;
+	color: yellow;
+	font-size: 150%;
+	border-top-left-radius: 70px;
+	border-bottom-right-radius: 70px;
+}
+.middle_text h1{
+	font-size: 140%;
+	padding-bottom: 3%;
+}
+.middle_text p{
+	padding-bottom: 5%;
+}
+.book_appointment a{
+	border: 2px solid red;
+	padding: 1.5% 3.5%;
+	border-radius: 40px;
+	text-decoration: none;
+}
+.book_appointment a{
+	color: yellow;
+	text-decoration: none;
+}
+.middle_text a:hover{
+	background-color: rgba(255, 255, 0,0.3);
+	transition: background-color 0.4s;
+}
+
+img{
+	width: 40%;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	vertical-align: baseline;
+    background: transparent;
+        
+}
+body, html{
+	margin: 0;
+	padding: 0;
+	font-family:'Lato', 'Arial', sans-serif;
+	font-size: 20px;
+	height: 100%;
+	width: 100%;
+	text-rendering: optimizeLegibility;
+}
+html{
+	overflow-x: hidden;
+}
+.bg_image{
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('images/background-image.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	background-repeat: no-repeat;
+	border: 10px inset black;
+	filter: blur(4px);
+}
+.heading_buttons{
+	position: absolute;
+	top: 2%;
+	left: 2%;
+	width: 98%;
+	background-attachment: fixed;
+	text-align: center;
+}
+.heading_buttons li{
+	margin-top: 1%;
+	display: inline-grid;
+	padding: 0% 2%;
+}
+.heading_buttons a{
+	color: yellow;
+	text-decoration: none;
+}
+.heading_buttons a:hover{
+	color: red;
+	transition: color 0.3s;
+}
+.middle_text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	padding: 2% 4%;
+	border: 10px inset red;
+	color: yellow;
+	font-size: 150%;
+	border-top-left-radius: 70px;
+	border-bottom-right-radius: 70px;
+}
+.middle_text h1{
+	font-size: 140%;
+	padding-bottom: 3%;
+}
+.middle_text p{
+	padding-bottom: 5%;
+}
+.book_appointment a{
+	border: 2px solid red;
+	padding: 1.5% 3.5%;
+	border-radius: 40px;
+	text-decoration: none;
+}
+.book_appointment a{
+	color: yellow;
+	text-decoration: none;
+}
+.middle_text a:hover{
+	background-color: rgba(255, 255, 0,0.3);
+	transition: background-color 0.4s;
+}
+
+img{
+	width: 40%;
+}
+/************************************ Second Page Emergency Services ********************************************/
+.second_page_whole {
+	margin: 4% 3% 4% 3%;
+	text-align: center;
+	font-size: 80%;
+}
+.second_page_whole img{
+	width: 20%;
+}
+.second_page_whole h2, hr{
+	color: rgb(255, 55, 0);
+	margin-top: 6%;
+	margin-bottom: 6%;
+}
+.second_page_whole p{
+	margin-bottom: 5%;
+}
+.second_page_whole a{
+	text-decoration: none;
+	color: rgb(43, 174, 186);
+}
+.second_page_whole a:hover{
+	color: rgb(255, 55, 0);
+}
+.services_whole{
+	padding-left: 3%;
+	padding-right: 3%;
+}
+.image_03 img{
+	margin-top: -1.4%;
+}
+/************************************ Third page Specialist List ********************************************/
+
+.third_page{
+	background-image: url('images/table_background.jpg');
+	width: 100%;
+	height: 100%;
+	background-size: 100% 100%;	
+	background-attachment: fixed;
+	color: white;
+}
+.whole_table{
+	padding: 5% 3% 5% 8%;
+	background-color: rgba(50, 50, 255,1);
+}
+table, td{
+	border: 1px solid green;
+	box-shadow: 1px 1px  3px green;
+	border-collapse: collapse;
+}
+table{
+	text-align: center;
+	width: 90%;
+	color: black;
+}
+td,th{
+	padding: 2%;
+	background-color: rgb(29, 215, 224);
+}
+td:hover, th:hover{
+	background-color: rgba(80, 199, 212,0.1);
+	color: red;
+	transition: all 0.2s;
+}
+.readmore {
+	text-align: center;
+	margin-top: 18%;
+	margin-right: 10%;
+}
+.readmore a{
+	color: white;
+	background-color: red;
+	border: 1px solid red;
+	border-radius: 50px;
+	padding: 4% 8% 4% 8%;
+	text-decoration: none;
+}
+.readmore a:hover{
+	background-color: rgba(29, 215, 224,0.8);
+	color: red;
+	transition: all 0.3s;
+}
+/************************************ Fourth page doctors ********************************************/
+.doctors_heading{
+	text-align: center;
+}
+.doctors_list img{
+	width: 100%;
+	border: 1.5px solid brown;
+	box-shadow: 2px 2px 4px grey;
+	filter: brightness(120%);
+}
+.doctors_list img:hover{
+	box-shadow: 2px 2px 12px grey;
+	width: 101%;
+	transition: 0.3s all;
+	
+}
+.doctors{
+	margin: 6%;
+	margin-left: 10%;
+}
+.doctors h2,h4{
+	color: rgb(11, 176, 191);
+	text-align: center;
+	padding: 3% 0.5% 0% 0.5%;
+	font-weight: 100;
+}
+.doctors h4{
+	color: rgb(240, 29, 29);
+}
+.doctors_heading{
+	color: rgb(11, 176, 191);
+	font-weight: 100;
+}
+.readmore_doctors{
+	text-align: center;
+	margin: -1% 0% 5% 0%;
+}
+.readmore_doctors a{
+	color: white;
+	background-color: red;
+	border: 1px solid red;
+	border-radius: 50px;
+	padding: 1.5% 3.5% 1.5% 3.5%;
+	text-decoration: none;
+}
+.readmore_doctors a:hover{
+	background-color: rgba(29, 215, 224,0.8);
+	color: red;
+	transition: all 0.3s;
+}
+/************************************ Fifth page message from director ********************************************/
+.directors_message{
+	background-image: url(images/directors_background_image_blur.jpg);
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: auto;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	font-size: 80%;
+	line-height: 130%;
+}
+.main_message_whole {
+	width: 50%;
+	margin-left: 25%;
+	padding-top: 2%;
+}
+.main_message{
+	background-color: rgba(255,255,255,0.6);
+	border: 8px inset red;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+.main_message h2{
+	padding: 3%;
+	color: rgb(3, 120, 140);
+}
+.main_message p{
+	text-align: justify;
+	padding: 0 5% 2% 5%;
+}
+.directors_details{
+	text-align: center;
+	padding-bottom: 3%;
+	color: rgb(23, 118, 135);
+}
+.directors_details img{
+	width: 23%;
+	border-radius: 50%;
+}
+/************************************ Calculators Part ********************************************/
+.calculators{
+	text-align: center;
+	padding: 2% 5% 2% 5%;
+	color: rgb(23, 118, 135);
+}
+.calculators img{
+	width: 30%;
+}
+.calc_four img{
+	margin-top: 5%;
+}
+/************************************ Fotter Part ********************************************/
+.footer_part{
+	background-color:rgb(6, 29, 66);
+	padding: 2% 8% 3% 8%;
+	text-align: justify;
+	line-height: 130%;
+}
+.footer_part h4{
+	color: orange;
+	font-weight: lighter;
+	font-size: 120%;
+}
+.footer_part h5{
+	color:rgb(255,255,255);
+	font-weight: lighter;
+}
+.footer_part h6{
+	color: rgb(180,180,180);
+	font-weight: lighter;
+}
+.footer_part a{
+	display: inherit;
+	text-decoration: none;
+	color: rgb(240,240,240);
+	text-align: center;
+	box-sizing: border-box;
+}
+.footer_part a:hover{
+	color: red;
+	transition: all 0.2s;
+}
+.footer_part img{
+	width: 8%;
+}
+.footer_part p{
+	color: red;
+}
+.location h4,h5,h6{
+	text-align: justify;
+}
+/************************************ Device Settelement ********************************************/
+@media only screen and (max-width: 1200px){
+	body{
+		font-size: 18px;
+	}
+	.middle_text{
+		top: 55%;
+		padding: 0% 1% 3% 1%;
+	}
+	.main_message_whole{
+		margin-left: 10%;
+		width: 80%;
+		height: auto;
+		font-size: 90%;
+		font-size: 110%;
+	}
+	.main_message{
+		margin-top: 10%;
+	}
+	.main_message_whole img{
+		width: 30%;
+		margin-top: -60%;
+	}
+	.directors_details{
+		margin-left: 60%;
+	}
+
+	
+}
+
+@media only screen and (max-width: 1023px){
+	body{
+		font-size: 16px;
+	}
+	.middle_text{
+	padding: 2% 4% 4% 4%;
+	border: 8px inset red;
+	font-size: 120%;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	}
+	.heading_buttons {
+		font-size: 120%;
+	}
+	.third_page{
+		font-size: 90%;
+	}
+	.whole_doctors_page{
+		font-size: 85%;
+		margin-left: -3%;
+	}
+	.main_message_whole{
+		font-size: 105%;
+	}
+	.main_message{
+		margin-top: 17%;
+	}
+	.footer_part{
+		font-size: 80%;
+		/*margin: -2%;*/
+	}
+
+
+}

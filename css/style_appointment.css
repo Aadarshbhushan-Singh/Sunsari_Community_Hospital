@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	background-color: white;
+	color: white;
+	font-family: 'Lato', 'Arial', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
+}
+.row{
+	max-width: 1140px;
+	margin: 0 auto 0 auto;
+}
+.header_part_section{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/background_header_image.jpg');
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.text_part{
+	float: left;
+	color: orange;
+	font-size: 85%;
+}
+.image_part img{
+	float: right;
+	width: 20%;
+	padding: 2%;
+	border-radius: 50%;
+}
+.text_part h2,h3,h4{
+	padding: 1.5%;
+	margin-top: -1%;
+}
+/***************************************** Buttons ****************************************************/
+.buttons{
+	text-align: center;
+	background-color: rgb(8, 196, 209);
+}
+.buttons a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 1% 2% 1% 2%;
+	color: red;
+}
+.buttons a:hover{
+	background-color: rgb(235, 56, 56);
+	color: white;
+	transition: all 0.2s;
+}
+/********************************************************************/
+/** Appointment **/
+/********************************************************************/
+.appointment_heading {
+	text-align: center;
+	color: white;
+	background-color: rgba(92, 167, 196,0.7);
+	padding: 1% 0 1% 0;
+}
+/*******************************   instruction-heading    *************************************************/
+.whole_document{
+	background-color: rgba(202, 232, 220, 0.3);
+	padding-left: 4%;
+	padding-right: 4%;
+}
+.instruction{
+	padding: 0%;
+	padding-top: 2%;
+	color: blue;
+	text-decoration: underline;
+}
+/*******************************   instruction-list    *************************************************/
+.instruction-list{
+	padding: 2%;
+	color: red;
+	font-weight: 500;
+	line-height: 140%;
+}
+/************************************** forms  ******************************************************/
+.accept_input{
+	font-size: 120%;
+	color: blue;
+	padding-bottom: 2%;
+}
+.button_submit {
+	font-size: 150%;
+	padding-bottom: 6%;
+}
+/***************************************** Media Query for Responsive ****************************************************/
+@media only screen and (max-width: 1200px){
+	.header_part{
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+
+}
+
+@media only screen and (max-width: 1023px){
+	.whole_document{
+		font-size: 85%;
+	}
+
+}
+
+@media only screen and (max-width: 768px){
+	.text_part{
+		font-size: 70%;
+	}
+	.image_part img{
+		margin-top: 5%;
+		width: 20%;
+	}
+	.buttons a{
+		font-size: 90%;
+	}
+	.whole_document{
+		font-size: 80%;
+		padding-left: 6%;
+		padding-right: 6%;
+	}
+	.header_part{
+		padding-bottom: 5%;	
+	}
+}
+
+
+@media only screen and (max-width: 480px){
+	.text_part{
+		font-size: 55%;
+	}
+	.image_part img{
+		display: none;
+	}
+	#hide_buttons{
+		display: none;
+	}
+	.whole_document{
+		font-size: 65%;
+	}
+
+}
+
+@media only screen and (max-width: 320px){
+	.text_part{
+		font-size: 50%;
+	}
+	.buttons{
+		font-size: 90%;
+	}
+	.whole_document{
+		font-size: 60%;
+	}
+}

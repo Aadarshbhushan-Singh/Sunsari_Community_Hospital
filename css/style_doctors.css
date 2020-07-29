@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	background-color: rgba(202, 232, 220, 0.3);
+	color: white;
+	font-family: 'Lato', 'Arial', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
+}
+.row{
+	max-width: 1140px;
+	margin: 0 auto 0 auto;
+}
+.header_part_section{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/background_header_image.jpg');
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.text_part{
+	float: left;
+	color: orange;
+	font-size: 85%;
+}
+.image_part img{
+	float: right;
+	width: 20%;
+	padding: 2%;
+	border-radius: 50%;
+}
+.text_part h2,h3,h4{
+	padding: 1.5%;
+	margin-top: -1%;
+}
+/***************************************** Buttons ****************************************************/
+.buttons{
+	text-align: center;
+	background-color: rgb(8, 196, 209);
+}
+.buttons a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 1% 2% 1% 2%;
+	color: red;
+}
+.buttons a:hover{
+	background-color: rgb(235, 56, 56);
+	color: white;
+	transition: all 0.2s;
+}
+/***************************************** Doctors ****************************************************/
+.doctors_image{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	margin: 2% 5%;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+}
+.doctors h2{
+	color: purple;
+	font-size: 90%;
+}
+.doctors h4{
+	color: red;
+	font-size: 80%;
+}
+.doctors_image img{
+	width: 85%;
+	height: auto;
+	border: 3px inset cyan;
+	transform: scale(1);
+	transition: transform .5s;
+	transition: all .5s;
+	max-width: 85%;
+}
+.doctors_image img:hover{
+	transform: scale(1.05);
+	box-shadow: 2px 2px 12px grey;
+}
+
+
+/***************************************** Media Query for Responsive ****************************************************/
+@media only screen and (max-width: 1200px){
+	.header_part{
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+	.doctors_image div{
+		margin-top: 3%;
+		margin-left: 4%;
+	}
+	.col{
+		width: 30%;
+	}
+	.doctors h2{
+		font-size: 80%;
+	}
+	.doctors h4{
+		font-size: 70%;
+	}
+
+}
+
+@media only screen and (max-width: 1023px){
+	.doctors_image{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.text_part{
+		font-size: 70%;
+	}
+	.image_part img{
+		margin-top: 5%;
+		width: 20%;
+	}
+	.buttons a{
+		font-size: 90%;
+	}
+	.header_part{
+		padding-bottom: 5%;	
+	}
+	.doctors_image{
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+
+@media only screen and (max-width: 480px){
+	.text_part{
+		font-size: 55%;
+	}
+	.image_part img{
+		display: none;
+	}
+	#hide_buttons{
+		display: none;
+	}
+	.doctors_image{
+		grid-template-columns: 1fr;
+	}
+	.doctors_image img{
+		width: 80%;
+		height: auto;
+		border: 2.5px inset cyan;
+	}
+	.doctors h2{
+		font-size: 70%;
+	}
+	.doctors h4{
+		font-size: 60%;
+	}
+	.doctors_image{
+		margin: 2% 1%;
+	}
+
+}
+
+@media only screen and (max-width: 320px){
+	.text_part{
+		font-size: 50%;
+	}
+	.buttons{
+		font-size: 90%;
+	}
+}

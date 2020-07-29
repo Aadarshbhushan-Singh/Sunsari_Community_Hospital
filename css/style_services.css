@@ -1,0 +1,226 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	background-color: white;
+	color: white;
+	font-family: 'Lato', 'Arial', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	text-rendering: optimizeLegibility;
+}
+body{
+	overflow-x: hidden;
+}
+.row{
+	max-width: 1140px;
+	margin: 0 auto 0 auto;
+}
+.header_part_section{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/background_header_image.jpg');
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.text_part{
+	float: left;
+	color: orange;
+	font-size: 85%;
+}
+.image_part img{
+	float: right;
+	width: 20%;
+	padding: 2%;
+	border-radius: 50%;
+}
+.text_part h2,h3,h4{
+	padding: 1.5%;
+	margin-top: -1%;
+}
+/***************************************** Buttons ****************************************************/
+.buttons{
+	text-align: center;
+	background-color: rgb(8, 196, 209);
+}
+.buttons a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 1% 2% 1% 2%;
+	color: red;
+}
+.buttons a:hover{
+	background-color: rgb(235, 56, 56);
+	color: white;
+	transition: all 0.2s;
+}
+/***************************************** Services ****************************************************/
+.services{
+	color: purple;
+	background-color: rgba(202, 232, 220, 0.3);
+	text-align: justify;
+	line-height: 140%;
+}
+.right_services img{
+	float: left;
+	width: 20%;
+	margin-right: 2%;
+	border: 1px solid red;
+}
+.left_services img{
+	float: right;
+	width: 20%;
+	margin-left: 2%;
+	border: 1px solid red;
+}
+.right_services img:hover, .left_services img:hover{
+	transition: all 0.2s;
+	border: 3px solid blue;
+	box-shadow: 0 0 4px 2px rgba(0, 140, 186, 0.5);
+}
+.right_services{
+	margin: 3% auto 2% auto;
+}
+.left_services{
+	margin: 3% auto 2% auto;
+}
+.services h3{
+	color: red;
+	text-align: center;
+	font-size: 120%;
+	text-decoration: underline;
+}
+.heading_services h2{
+	text-align: center;
+	font-size: 160%;
+	margin-top: 3%;
+}
+/***************************************** Table ****************************************************/
+table,td, th{
+	border: 1px solid red;
+	border-collapse: collapse;
+	padding: 1%;
+	width: 80%;
+}
+hr{
+	margin: 3%;
+}
+.lab_services table{
+	width: 95%;
+	margin-bottom: 5%;
+}
+tr:nth-child(even){background-color: #f2f2f2;}
+tr:hover{
+	background-color: rgba(219, 156, 156,0.8);
+	color: white;
+}
+.charges_table{
+	width: 100%;
+}
+.lab_services table{
+	width: 100%;
+}
+/***************************************** Media Query for Responsive ****************************************************/
+@media only screen and (max-width: 1200px){
+	.header_part{
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+	.services{
+		font-size: 90%;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.charges_table{
+		width: 100%;
+	}
+	.lab_services table{
+		width: 100%;
+	}
+
+}
+
+@media only screen and (max-width: 1023px){
+	.services{
+		font-size: 80%;
+	}
+	.right_services img{
+		width: 30%;
+	}
+	.left_services img{
+		width: 30%;
+	}
+
+}
+
+@media only screen and (max-width: 768px){
+	.text_part{
+		font-size: 70%;
+	}
+	.image_part img{
+		margin-top: 5%;
+		width: 20%;
+	}
+	.buttons a{
+		font-size: 90%;
+	}
+	.header_part{
+		padding-bottom: 5%;	
+	}
+	.services{
+		font-size: 70%;
+		padding-left: 8%;
+		padding-right: 8%;
+	}
+	.right_services img{
+		width: 40%;
+	}
+	.left_services img{
+		width: 40%;
+	}
+	h3{
+		margin-bottom: 2%;
+	}
+}
+
+
+@media only screen and (max-width: 480px){
+	.text_part{
+		font-size: 55%;
+	}
+	.image_part img{
+		display: none;
+	}
+	#hide_buttons{
+		display: none;
+	}
+	.services{
+		font-size: 65%;
+		line-height: 150%;
+	}
+	.right_services img{
+		width: 100%;
+		height: 30vh;
+	}
+	.left_services img{
+		width: 100%;
+		height: 30vh;
+	}
+
+}
+
+@media only screen and (max-width: 320px){
+	.text_part{
+		font-size: 50%;
+	}
+	.buttons{
+		font-size: 90%;
+	}
+	.services{
+		font-size: 60%;
+		padding-left: 8%;
+		padding-right: 8%;
+	}
+}

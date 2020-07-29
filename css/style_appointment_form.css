@@ -1,0 +1,196 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	background-color: white;
+	color: white;
+	font-family: 'Lato', 'Arial', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
+}
+.row{
+	max-width: 1140px;
+	margin: 0 auto 0 auto;
+}
+.header_part_section{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/background_header_image.jpg');
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.text_part{
+	float: left;
+	color: orange;
+	font-size: 85%;
+}
+.image_part img{
+	float: right;
+	width: 20%;
+	padding: 2%;
+	border-radius: 50%;
+}
+.text_part h2,h3,h4{
+	padding: 1.5%;
+	margin-top: -1%;
+}
+/***************************************** Buttons ****************************************************/
+.buttons{
+	text-align: center;
+	background-color: rgb(8, 196, 209);
+}
+.buttons a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 1% 2% 1% 2%;
+	color: red;
+}
+.buttons a:hover{
+	background-color: rgb(235, 56, 56);
+	color: white;
+	transition: all 0.2s;
+}
+/********************************************************************/
+/** Appointment Form **/
+/********************************************************************/
+.patients_detail_heading {
+	text-align: center;
+	color: purple;
+	padding: 1% 0 1% 0;
+	background-color: rgba(202, 232, 220, 0.3);
+}
+p{
+	color: red;
+	text-align: center;
+	background-color: rgba(202, 232, 220, 0.3);
+	text-decoration: bold;
+}
+/********************************************************************/
+/** Form **/
+/********************************************************************/
+form{
+	background-color: rgba(202, 232, 220, 0.3);
+	color: purple;
+}
+.details_01_and_02 input{
+	width: 80%;
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
+}
+.gender_input input{
+	width: 5%;
+}
+.details_03 input{
+	width: 39%;
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
+}
+.buttons_submit{
+	margin-left: 20%;
+	margin-top: 3%;
+	padding-bottom: 5%;
+	font-size: 150%;
+	/*justify-content: center;
+	text-align: center;*/
+}
+.buttons_submit input{
+	padding: 0.5%;
+}
+/***************************************** Media Query for Responsive ****************************************************/
+@media only screen and (max-width: 1200px){
+	.header_part{
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+	.patients_detail_heading, p{
+		font-size: 90%;
+		padding-right: 5%;
+		padding-left: 5%;
+	}
+	form{
+		padding-left: 5%;
+		padding-right: 3%;
+		font-size: 90%;
+	}
+
+}
+
+@media only screen and (max-width: 1023px){
+	.patients_detail_heading, p{
+		font-size: 85%;
+	}
+	form{
+		font-size: 85%;
+	}
+	
+
+}
+
+@media only screen and (max-width: 768px){
+	.text_part{
+		font-size: 70%;
+	}
+	.image_part img{
+		margin-top: 5%;
+		width: 20%;
+	}
+	.buttons a{
+		font-size: 90%;
+	}
+	.header_part{
+		padding-bottom: 5%;	
+	}
+	.patients_detail_heading, p{
+		font-size: 80%;
+	}
+	form{
+		font-size: 80%;
+		padding-left: 10%;
+	}
+	.col{
+		width: 100%;
+	}
+	.details_03, .details_03 input{
+		width: 90%;
+		margin: 0;
+	}
+}
+
+
+@media only screen and (max-width: 480px){
+	.text_part{
+		font-size: 55%;
+	}
+	.image_part img{
+		display: none;
+	}
+	#hide_buttons{
+		display: none;
+	}
+	.patients_detail_heading, p{
+		font-size: 70%;
+	}
+	form{
+		font-size: 70%;
+	}
+
+}
+
+@media only screen and (max-width: 320px){
+	.text_part{
+		font-size: 50%;
+	}
+	.buttons{
+		font-size: 90%;
+	}
+	.patients_details_heading, p{
+		font-size: 60%;
+	}
+	form{
+		font-size: 60%;
+	}
+}
