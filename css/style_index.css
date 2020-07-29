@@ -492,6 +492,13 @@ td:hover, th:hover{
 		border-top-left-radius: 25px;
 		border-bottom-right-radius: 25px;
 	}
+	.directors_details img{
+		margin-top: 3%;
+		width: 80%;
+	}
+	.directors_details{
+		font-size: 90%;
+	}
 	body{
 		width: 102%;
 	}
