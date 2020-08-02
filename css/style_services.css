@@ -97,6 +97,7 @@ body{
 	font-size: 160%;
 	margin-top: 3%;
 }
+
 /***************************************** Table ****************************************************/
 table,td, th{
 	border: 1px solid red;
@@ -203,10 +204,12 @@ tr:hover{
 	.right_services img{
 		width: 100%;
 		height: 30vh;
+		margin-bottom: 3%;
 	}
 	.left_services img{
 		width: 100%;
 		height: 30vh;
+		margin-bottom: 3%;
 	}
 
 }

@@ -101,10 +101,10 @@ html,body{
 		width: 30%;
 	}
 	.doctors h2{
-		font-size: 80%;
+		font-size: 90%;
 	}
 	.doctors h4{
-		font-size: 70%;
+		font-size: 80%;
 	}
 
 }
@@ -154,10 +154,10 @@ html,body{
 		border: 2.5px inset cyan;
 	}
 	.doctors h2{
-		font-size: 70%;
+		font-size: 80%;
 	}
 	.doctors h4{
-		font-size: 60%;
+		font-size: 70%;
 	}
 	.doctors_image{
 		margin: 2% 1%;

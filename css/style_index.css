@@ -191,10 +191,11 @@ td:hover, th:hover{
 	color: rgb(11, 176, 191);
 	text-align: center;
 	padding: 3% 0.5% 0% 0.5%;
-	font-weight: 100;
+	font-weight: bolder;
 }
 .doctors h4{
 	color: rgb(240, 29, 29);
+	font-weight: bolder;
 }
 .doctors_heading{
 	color: rgb(11, 176, 191);
